@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 *{
     margin:0px;
     padding:0px;
@@ -26,6 +26,7 @@
     font-weight: bold;
     color:#d338db;
     text-align:center;
+   
 }
 .book{
     display:flex;
@@ -43,6 +44,7 @@
     font-weight: 500;
     margin-bottom: 5px;
     color:#d338db;
+    font-weight: bold;
 }
 .input_station{
   height: 45px;
@@ -54,7 +56,7 @@
   border: 1px solid white;
   border-bottom-width: 2px;
   background:#fae9fb;
-
+  
 }
 .input_station:focus{
     border-color:#d338db;
@@ -134,6 +136,7 @@
 .services_title{
     color:#d338db;
     font-size:30px;
+    font-weight:bold;
 }
 .service_container{
     margin-top:3%;
@@ -150,7 +153,7 @@
 }
 .service_name{
     text-align:center;
-    font-weight: 600;
+    font-weight:bold;
     margin:10px 0;
     color:#d338db;
 }
@@ -176,10 +179,12 @@
 .holiday_title{
     color:#d338db;
     font-size:30px;
+    font-weight:bold;
 }
 .holiday_name{
     color:#d338db;
     margin-bottom: 2%;
+    font-weight:bold;
 }
 .packages{
     flex-basis:31%;
@@ -194,6 +199,7 @@
     margin-right:10px ;
     margin-left: 10px;
     margin-bottom: 2%;
+    color:black;
 }
 .pack{
     color:#d338db;
@@ -227,6 +233,7 @@
     }
     
 }
+
 nav {
     position: sticky;
     top:0;
@@ -446,11 +453,3 @@ font-weight: bold;
  
 }
  }
-
-
-
-
-
-
-   
-
