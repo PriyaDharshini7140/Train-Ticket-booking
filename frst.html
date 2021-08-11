@@ -29,39 +29,6 @@ body {
         text-align: center;
         background-repeat: no-repeat;       
 }
-@media screen and (max-width: 600px) {
-  .si,.name {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-@media only screen and (max-width: 320px) {
-	.navs1,
-	.navs1 ul {
-		height: auto;
-	}
-	.navs1 li, .navs a {
-		float: none;
-		display: block;
-		margin: 0;
-		height: auto;
-	}
-@media only screen and (max-width: 1000px) {
-  
-  body{
-      width: 100%;
-      
-  }
-}
-	.navs1 a {
-		width: auto;
-		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-		padding: 1em;
-	}
-    #check:checked ~ .navs1 {
-        left: 0;
-    }
-}
 .navs1 {
     position: fixed;
     left: -250px;
@@ -138,7 +105,7 @@ label #btn2 {
 #check:checked ~ label #btn2 {
     left: 195px;
 }
-.d1 {
+#d1 {
     /*padding-right: 200px;
     padding-top: 50px;*/
     width:1100px;
@@ -164,11 +131,12 @@ label #btn2 {
     height: 80%;
     align-content: center;
     border: 1px solid #ccc;*/
-    border: 1px solid #ccc;
     color: black;
-    width: 70%;
+    width: 60%;
     height: 60%;
+    
     margin-left: 20%;
+    align-content: center;
     
 }
 .sk:after {
@@ -176,11 +144,12 @@ label #btn2 {
     display: table;
     clear: both;
   }
-.name {
+#name {
     width:750px;
     background-color: #d338db;
     margin-top: 20px;
-    margin-left: 300px;
+    margin-left: 26%;
+    border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     color:black;
     padding: 10px 0px 10px 100px;
@@ -243,6 +212,53 @@ a {
     color: black;
     font-size: larger;
 }
+@media only screen and (max-width: 1000px) {
+  
+  #d1{
+      width: 100%; 
+      background-color: #d338db; 
+      position:relative;
+      text-align: center;
+  }
+  #name{
+      width: 100%;
+      position: relative;
+      margin: inherit;
+      text-align: center;
+  }
+  .sectn1,.si,#sk {
+      font-size: 15px;
+      width: 100%;
+      padding: none;
+      display: contents;
+  }
+  .si {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: lawngreen;
+  }
+	.navs1 {
+        text-align: center;
+        align-content: center;
+
+	}
+	.navs1 li, .navs a {
+		float: none;
+		display: block;
+		margin: 0;
+		height: auto;
+	}
+
+	.navs1 a {
+		width: auto;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+		padding: 1em;
+	}
+    #check:checked ~ .navs1 {
+        left: 0;
+    }
+}
 </style>
 <body>
     <div class="sectn1">
@@ -265,10 +281,9 @@ a {
           </ul>
         </div>
     </div>
-    <div class="si">
-    <h1 class="d1"><center>Payment Details</center></h1><br>
-   
-    <h3 class="name">Payment Option</h3><br><br>
+    
+    <h1 id="d1"><center>Payment Details</center></h1><br>
+    <div id="name"><h3>Payment Option</div><br><br>
     <div id=sk>
         <form class="two">
             <input type="radio" class="details" name="card">Cash Card
@@ -284,7 +299,7 @@ a {
                 <option>KVB Bank</option>
                 <option>SBI Bank</option>
             </select><br><br>
-            <button class="blb"><a href="pass (1).html">Back</a></button>            
+            <button class="blb">Back</button>            
             <button class="blb"><a href="sampl2 (1).html">Next</a></button>
         </div>
         </form>
