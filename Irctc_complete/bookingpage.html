@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <title>Book Your Wagon</title>
+    <link rel="stylesheet" href="bookingpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <form>
+        <div><h1 class="headingtxt">Book Your Freight</h1></div>
+        <div class="fs">
+            <div>
+                <div class="lin"><label class="label" for="id">User ID</label><input class="in" type="text" id="id" placeholder="User ID" value=""></div>
+                <div class="lin"><label class="label"for="fname">Freight Name</label><input class="in" type="email" id="fname" placeholder="Freight Name"></div>
+                <div class="lin"><label  class="label" for="ftype">Type of Freight</label>
+            
+                    <select class="in"name="ftype" id="ftype">
+                        <option selected>Select</option>
+                        <option value="Liquid-Volatile">Liquid-Volatile</option>
+                        <option value="Liquid-Non-Volatile">Liquid-Non-Volatile</option>
+                        <option value="Solid-Volatile">Solid-Volatile</option>
+                        <option value="Solid-Non-Volatile">Solid-Non-Volatile</option>
+                        <option value="Gas-Volatile">Gas-Volatile</option>
+                        <option value="Gas-Non-Volatile">Gas-Non-Volatile</option>
+                    </select>
+                </div>
+                <div class="lin"><label  class="label" for="from">From</label>
+            
+                    <select class="in"name="ftype" id="from">
+                        <option selected>Select</option>
+                        <option>NEW DELHI - NDLS</option>
+                    <option>MGR CHENNAI CTL - MAS</option>
+                    <option>HOWRAH JN - HWH</option>
+                    <option>SECUNDERABAD JN - SC</option>
+                    <option>PUNE JN - PUNE</option>
+                    <option>CHENNAI EGMORE - MS</option>
+                    <option>MUMBAI CENTRAL - MMCT</option>
+                    <option>DELHI - DLI</option>
+                    <option>MADURAI JN - MDU</option>
+                    <option>TIRUCHCHIRAPALI - TPJ</option>
+                    </select>
+                </div>
+                <div class="lin"><label  class="label" for="to">To</label>
+            
+                    <select class="in"name="ftype" id="to">
+                        <option selected>Select</option>
+                        <option>NEW DELHI - NDLS</option>
+                    <option>MGR CHENNAI CTL - MAS</option>
+                    <option>HOWRAH JN - HWH</option>
+                    <option>SECUNDERABAD JN - SC</option>
+                    <option>PUNE JN - PUNE</option>
+                    <option>CHENNAI EGMORE - MS</option>
+                    <option>MUMBAI CENTRAL - MMCT</option>
+                    <option>DELHI - DLI</option>
+                    <option>MADURAI JN - MDU</option>
+                    <option>TIRUCHCHIRAPALI - TPJ</option>
+                    </select>
+                </div>
+                
+                <div class="lin"><label class="label" for="time">Departure</label><select class="in"name="ftype" id="ftype">
+                    <option selected>Departure</option>
+                    <option >Early Morning(0-6)</option>
+                    <option >Morning(6-15)</option>
+                    <option >Mid Day(12-18)</option>
+                    <option >Night(18-24)</option>
+                </select>
+            </div>
+                <div class="submit"><button type="reset" class="btncolor uppercase">Reset</button>
+                    <button type="submit" class="btncolor uppercase">Book My Freight </button></div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

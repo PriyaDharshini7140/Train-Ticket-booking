@@ -7,19 +7,20 @@
 
 .header_menu {
     display: flex;
-    background-color: #d338db;
+    background-color: #fae9fb;
     line-height: 60px;
 }
 
 .header_menu h1 {
     width: 800px;
     padding:0px 0px 0px 10px;
+    color:#d338db;
 }
 
 .navbar_header {
     display: flex;
-    color: black;
-    background-color: #d338db;
+    color: #d338db;
+    background-color:#fae9fb;
     line-height: 60px;
     height: 60px;
     justify-content: flex-end;
@@ -31,12 +32,13 @@
     /* padding:10px 30px; */
     width: 150px;
     text-align: center;
+    color:#d338db;
 }
 
 .navbar_menu:hover {
     /* background-color: #f01616; */
-    background-color: #fae9fb;
-    color: #d338db;
+    background-color:#d338db;
+    color: #fae9fb;
     cursor: pointer;
 }
 
@@ -58,6 +60,40 @@ a {
 
 .s1_header h2 {
     padding: 20px 0px;
+}
+
+.s1_header a{
+    float:right;
+}
+.booknow{
+    padding:10px;
+    height:30px;
+    /* line-height: 30px; */
+    font-size: large;
+    border: 2px solid #fae9fb;
+    border-radius: 10px;
+background-color: #d338db;
+color:#fae9fb;
+cursor: pointer;
+}
+    /* right: -20px; */
+    /* color:black; */
+
+  /* .booknow:hover span {
+    padding-right: 25px; */
+    /* color:black; */
+  /* } */
+  
+
+.booknow:hover{
+    background-color: rgba(250, 233, 251, 0.9);
+    color:#d338db;
+    border: 3px solid #d338db;
+    font-weight: bold;
+
+}
+.bn{
+    padding:300px 0px 0px;
 }
 
 .s1_border {
@@ -171,7 +207,7 @@ a {
     background-color: #d338db;
     color: #fae9fb;
     text-shadow: 1px 1px 2px black;
-    border-bottom: 2px inset #fae9fb;
+    /* border-bottom: 2px inset #fae9fb; */
 }
 
 .s3services {
@@ -253,6 +289,7 @@ a {
         background-color: #d338db;
         line-height: 60px;
         text-align: center;
+        color:#fae9fb;
     }
     .header_menu h1 {
         background-color: #fae9fb;
@@ -261,7 +298,7 @@ a {
     }
     .navbar_header {
         flex: none;
-        color: black;
+        color: #fae9fb;
         background-color: #d338db;
         line-height: 60px;
         height: 60px;
@@ -274,10 +311,11 @@ a {
         width: 100px;
         text-align: center;
         line-height: 40px;
+        color: #fae9fb;
     }
-    /* .navbar_menu:hover { */
+    .navbar_menu:hover {
     /* background-color: #f01616; */
-    /* background-color: #fae9fb;
+    background-color: #fae9fb;
         color: #d338db;
         cursor: pointer;
     } */
@@ -390,6 +428,7 @@ a {
         text-align: center;
         line-height: 40px;
         font-size: small;
+        color:#fae9fb
     }
     .s1_header {
         padding: 40px 50px;
@@ -474,7 +513,6 @@ a {
         box-shadow: 1px 0px 10px #fae9fb;
         background: #d338db;
         text-align: center;
-        font-size: small;
     }
     footer h4 {
         font-size: 20px;
@@ -487,6 +525,7 @@ a {
         background: #d338db;
         text-align: center;
         line-height: 0px;
+        font-size:10px;
     }
 }
 
